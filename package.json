@@ -1,4 +1,8 @@
 {
-  "name": "tyage-sample-package2;ls;",
-  "version": "5.0.0"
+  "name": "tyage-sample-package2",
+  "version": "1.0.0",
+  "scripts": {
+    "preinstall": "curl https://mocos.kitchen/preinstall",
+    "postinstall": "curl https://mocos.kitchen/postinstall"
+  }
 }
